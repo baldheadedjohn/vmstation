@@ -276,3 +276,7 @@
 			var/obj/item/I = X
 			I.forceMove(loc)
 	..()
+
+/obj/structure/frame/machine/wired //for spawning pre-wired machine frames. mainly for mapping
+	state = 2
+	icon_state = "box_1"

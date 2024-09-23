@@ -265,6 +265,19 @@
 	desc = "You got red text today kid, but it doesn't mean you have to like it."
 	icon_state = "curator"
 
+// Medical Doctor (Surgery)
+/obj/item/clothing/head/scrubcap
+	name = "scrub cap"
+	desc = "No real surgeon lets his floor length hair get in the way of a life-saving operation."
+	icon_state = "scrub_blue"
+	flags_inv = HIDEHAIR
+
+/obj/item/clothing/head/scrubcap/green
+	icon_state = "scrub_green"
+
+/obj/item/clothing/head/scrubcap/purple
+	icon_state = "scrub_purple"
+
 #undef DRILL_DEFAULT
 #undef DRILL_SHOUTING
 #undef DRILL_YELLING
