@@ -37,3 +37,16 @@
 	name = "neutral corner"
 	color = "#D4D4D4"
 	alpha = 50
+
+/obj/effect/turf_decal/tile/atmos
+	name = "teal corner"
+	color = "#20C1A4"
+
+/obj/effect/turf_decal/tile/grey
+	name = "grey corner"
+	color = "#1c1c1c"
+
+/obj/effect/turf_decal/tile/black
+	name = "black corner"
+	color = "#000000"
+	alpha = 175
