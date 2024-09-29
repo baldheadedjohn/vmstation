@@ -166,6 +166,8 @@
 #define ATMOS_TANK_O2				"o2=100000;TEMP=293.15"
 #define ATMOS_TANK_N2				"n2=100000;TEMP=293.15"
 #define ATMOS_TANK_AIRMIX			"o2=2644;n2=10580;TEMP=293.15"
+#define ATMOS_TANK_H2O				"water_vapor=70000;TEMP=293.15"
+
 
 //LAVALAND
 #define LAVALAND_EQUIPMENT_EFFECT_PRESSURE 50 //what pressure you have to be under to increase the effect of equipment meant for lavaland
@@ -201,6 +203,11 @@
 #define ATMOS_GAS_MONITOR_INPUT_CO2 "co2_in"
 #define ATMOS_GAS_MONITOR_OUTPUT_CO2 "co2_out"
 #define ATMOS_GAS_MONITOR_SENSOR_CO2 "co2_sensor"
+
+#define ATMOS_GAS_MONITOR_INPUT_H2O "h2o_in"
+#define ATMOS_GAS_MONITOR_OUTPUT_H2O "h2o_out"
+#define ATMOS_GAS_MONITOR_SENSOR_H2O "h2o_sensor"
+
 
 #define ATMOS_GAS_MONITOR_INPUT_INCINERATOR "incinerator_in"
 #define ATMOS_GAS_MONITOR_OUTPUT_INCINERATOR "incinerator_out"

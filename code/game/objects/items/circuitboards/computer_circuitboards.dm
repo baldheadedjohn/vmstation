@@ -95,6 +95,10 @@
 	name = "Carbon Dioxide Supply Control (Computer Board)"
 	build_path = /obj/machinery/computer/atmos_control/tank/carbon_tank
 
+/obj/item/circuitboard/computer/atmos_control/tank/water_vapor_tank
+	name = "Water Vapor Supply Control (Computer Board)"
+	build_path = /obj/machinery/computer/atmos_control/tank/water_vapor_tank
+
 /obj/item/circuitboard/computer/atmos_control/tank/incinerator
 	name = "Incinerator Air Control (Computer Board)"
 	build_path = /obj/machinery/computer/atmos_control/tank/incinerator

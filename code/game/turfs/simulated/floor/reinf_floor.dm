@@ -122,6 +122,10 @@
 	name = "air floor"
 	initial_gas_mix = ATMOS_TANK_AIRMIX
 
+/turf/open/floor/engine/h2o
+	article = "an"
+	name = "\improper H2O floor"
+	initial_gas_mix = ATMOS_TANK_H2O
 
 
 /turf/open/floor/engine/cult

@@ -38,6 +38,10 @@
 /obj/machinery/air_sensor/atmos/carbon_tank
 	name = "carbon dioxide tank gas sensor"
 	id_tag = ATMOS_GAS_MONITOR_SENSOR_CO2
+/obj/machinery/air_sensor/atmos/water_vapor_tank
+	name = "carbon dioxide tank gas sensor"
+	id_tag = ATMOS_GAS_MONITOR_SENSOR_H2O
+
 /obj/machinery/air_sensor/atmos/incinerator_tank
 	name = "incinerator chamber gas sensor"
 	id_tag = ATMOS_GAS_MONITOR_SENSOR_INCINERATOR
@@ -223,6 +227,14 @@ GLOBAL_LIST_EMPTY(atmos_air_controllers)
 	output_tag = ATMOS_GAS_MONITOR_OUTPUT_CO2
 	sensors = list(ATMOS_GAS_MONITOR_SENSOR_CO2 = "Carbon Dioxide Tank")
 	circuit = /obj/item/circuitboard/computer/atmos_control/tank/carbon_tank
+
+/obj/machinery/computer/atmos_control/tank/water_vapor_tank
+	name = "Water Vapor Supply Control"
+	input_tag = ATMOS_GAS_MONITOR_INPUT_H2O
+	output_tag = ATMOS_GAS_MONITOR_OUTPUT_H2O
+	sensors = list(ATMOS_GAS_MONITOR_SENSOR_H2O = "Water Vapor Tank")
+	circuit = /obj/item/circuitboard/computer/atmos_control/tank/water_vapor_tank
+
 
 /obj/machinery/computer/atmos_control/tank/incinerator
 	name = "Incinerator Air Control"

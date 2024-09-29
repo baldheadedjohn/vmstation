@@ -250,3 +250,21 @@
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped/inverse
 	node1_concentration = O2STANDARD
 	node2_concentration = N2STANDARD
+
+/obj/machinery/atmospherics/components/trinary/mixer/airmix/layer1 //in case you needed one on layer 1 *cough* /vm/
+	name = "air mixer"
+	piping_layer = 1
+	icon_state = "mixer_on_map-1"
+	node1_concentration = N2STANDARD
+	node2_concentration = O2STANDARD
+	target_pressure = MAX_OUTPUT_PRESSURE
+	on = TRUE
+
+/obj/machinery/atmospherics/components/trinary/mixer/airmix/layer3 //in case you needed one on layer 3
+	name = "air mixer"
+	piping_layer = 3
+	icon_state = "mixer_on_map-3"
+	node1_concentration = N2STANDARD
+	node2_concentration = O2STANDARD
+	target_pressure = MAX_OUTPUT_PRESSURE
+	on = TRUE

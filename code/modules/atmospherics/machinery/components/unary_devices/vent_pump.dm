@@ -373,6 +373,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/carbon_output
 	name = "carbon dioxide tank output inlet"
 	id_tag = ATMOS_GAS_MONITOR_OUTPUT_CO2
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/water_vapor_output
+	name = "water vapor mixing output inlet"
+	id_tag = ATMOS_GAS_MONITOR_OUTPUT_H2O
+	frequency = FREQ_ATMOS_CONTROL
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output
 	name = "incinerator chamber output inlet"
 	id_tag = ATMOS_GAS_MONITOR_OUTPUT_INCINERATOR
@@ -381,6 +385,8 @@
 	name = "toxins mixing output inlet"
 	id_tag = ATMOS_GAS_MONITOR_OUTPUT_TOXINS_LAB
 	frequency = FREQ_ATMOS_CONTROL
+
+
 
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/layer1
 	piping_layer = 1
