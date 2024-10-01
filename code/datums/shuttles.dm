@@ -471,6 +471,10 @@
 	suffix = "donut"
 	name = "supply shuttle (Donut)"
 
+/datum/map_template/shuttle/cargo/donut
+	suffix = "vm36"
+	name = "supply shuttle (vm36)"
+
 /datum/map_template/shuttle/emergency/delta
 	suffix = "delta"
 	name = "Delta Station Emergency Shuttle"

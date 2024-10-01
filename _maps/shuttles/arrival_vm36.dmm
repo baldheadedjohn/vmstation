@@ -9,7 +9,7 @@
 "u" = (/obj/structure/shuttle/engine/propulsion/burst/left{dir = 4},/turf/open/floor/plating/airless,/area/shuttle/arrival)
 "x" = (/turf/closed/wall/mineral/titanium,/area/shuttle/arrival)
 "L" = (/obj/structure/shuttle/engine/heater{dir = 4},/obj/structure/window/reinforced{dir = 8},/turf/open/floor/plating/airless,/area/shuttle/arrival)
-"M" = (/obj/docking_port/mobile/arrivals,/turf/template_noop,/area/shuttle/arrival)
+"M" = (/obj/docking_port/mobile/arrivals,/turf/closed/wall/mineral/titanium,/area/shuttle/arrival)
 "O" = (/obj/structure/closet/emcloset,/obj/effect/spawner/lootdrop/maintenance,/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
 "P" = (/obj/machinery/light{dir = 8},/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
 "S" = (/obj/structure/table,/obj/item/storage/firstaid/regular,/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)

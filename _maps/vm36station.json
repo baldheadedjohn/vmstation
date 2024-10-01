@@ -3,6 +3,7 @@
     "map_path": "map_files/VM36station",
     "map_file": "vm36.dmm",
     "shuttles": {
+        "cargo": "cargo_vm36"
 
     }
 }

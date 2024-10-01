@@ -1,0 +1,16 @@
+"a" = (/turf/closed/wall/mineral/titanium,/area/shuttle/supply)
+"e" = (/obj/machinery/door/airlock/titanium{name = "Supply Shuttle Airlock"},/obj/docking_port/mobile/supply,/turf/open/floor/mineral/titanium/blue,/area/shuttle/supply)
+"j" = (/turf/template_noop,/area/template_noop)
+"t" = (/turf/open/floor/mineral/titanium/blue,/area/shuttle/supply)
+"M" = (/obj/structure/shuttle/engine/propulsion/burst/left,/turf/open/space/basic,/area/shuttle/supply)
+"P" = (/obj/structure/shuttle/engine/heater,/obj/structure/window/reinforced{dir = 1},/turf/open/floor/plating,/area/shuttle/supply)
+"Q" = (/obj/machinery/door/poddoor{id = "QMLoaddoor"; name = "supply dock loading door"},/turf/open/floor/mineral/titanium/blue,/area/shuttle/supply)
+
+(1,1,1) = {"
+aaaaaaaaa
+atttttttQ
+attttttta
+attttttte
+aaaPaPaaa
+jjjMjMjjj
+"}
