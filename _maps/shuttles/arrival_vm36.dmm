@@ -1,0 +1,24 @@
+"a" = (/obj/structure/chair{dir = 8},/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+"e" = (/obj/machinery/light{dir = 4},/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+"f" = (/obj/structure/table,/obj/item/reagent_containers/food/drinks/soda_cans/cola,/obj/item/reagent_containers/food/drinks/soda_cans/cola{pixel_x = 10},/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+"g" = (/obj/machinery/door/airlock/titanium{name = "Arrivals Shuttle Airlock"},/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+"k" = (/obj/effect/spawner/structure/window/shuttle,/turf/open/floor/plating,/area/shuttle/arrival)
+"r" = (/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+"s" = (/obj/structure/table,/obj/item/reagent_containers/food/drinks/soda_cans/cola,/obj/item/reagent_containers/food/drinks/soda_cans/cola{pixel_x = -11; pixel_y = 3},/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+"t" = (/turf/template_noop,/area/template_noop)
+"u" = (/obj/structure/shuttle/engine/propulsion/burst/left{dir = 4},/turf/open/floor/plating/airless,/area/shuttle/arrival)
+"x" = (/turf/closed/wall/mineral/titanium,/area/shuttle/arrival)
+"L" = (/obj/structure/shuttle/engine/heater{dir = 4},/obj/structure/window/reinforced{dir = 8},/turf/open/floor/plating/airless,/area/shuttle/arrival)
+"M" = (/obj/docking_port/mobile/arrivals,/turf/template_noop,/area/shuttle/arrival)
+"O" = (/obj/structure/closet/emcloset,/obj/effect/spawner/lootdrop/maintenance,/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+"P" = (/obj/machinery/light{dir = 8},/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+"S" = (/obj/structure/table,/obj/item/storage/firstaid/regular,/turf/open/floor/mineral/titanium/blue,/area/shuttle/arrival)
+
+(1,1,1) = {"
+xxgxkxxxxt
+xrrraaarLu
+xPrrrrrexM
+xOrraaarLu
+xxkSfskxxt
+ttkkkkkttt
+"}

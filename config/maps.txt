@@ -13,8 +13,12 @@ Format:
 	votable (is this map votable)
 endmap
 
-map boxstation
+
+map vm36station
 	default
+endmap
+
+map boxstation
 	#voteweight 1.5
 	votable
 endmap
