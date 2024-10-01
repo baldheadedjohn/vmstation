@@ -471,7 +471,7 @@
 	suffix = "donut"
 	name = "supply shuttle (Donut)"
 
-/datum/map_template/shuttle/cargo/donut
+/datum/map_template/shuttle/cargo/vm36
 	suffix = "vm36"
 	name = "supply shuttle (vm36)"
 
@@ -555,6 +555,10 @@
 /datum/map_template/shuttle/labour/kilo
 	suffix = "kilo"
 	name = "labour shuttle (Kilo)"
+
+/datum/map_template/shuttle/labour/vm36
+	suffix = "vm36"
+	name = "labour shuttle (vm36)"
 
 /datum/map_template/shuttle/mining_common/meta
 	suffix = "meta"
