@@ -51,3 +51,7 @@
 /obj/machinery/atmospherics/components/unary/tank/nitrogen
 	icon_state = "red"
 	gas_type = /datum/gas/nitrogen
+
+/obj/machinery/atmospherics/components/unary/tank/nitrous_oxide
+	icon_state = "red_white"
+	gas_type = /datum/gas/nitrous_oxide

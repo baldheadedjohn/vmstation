@@ -1,0 +1,21 @@
+"a" = (/turf/closed/wall/mineral/titanium,/area/shuttle/mining)
+"g" = (/obj/machinery/computer/shuttle/mining,/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
+"h" = (/obj/machinery/door/airlock/titanium{name = "Mining Shuttle Airlock"},/obj/docking_port/mobile{dir = 8; dwidth = 2; height = 4; id = "mining"; name = "mining shuttle"; port_direction = 4; width = 7},/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
+"i" = (/obj/effect/spawner/structure/window/shuttle,/turf/open/floor/plating,/area/shuttle/mining)
+"m" = (/obj/structure/ore_box,/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
+"o" = (/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
+"r" = (/obj/machinery/light{dir = 8},/obj/structure/chair{dir = 4},/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
+"x" = (/obj/structure/shuttle/engine/propulsion,/obj/structure/window/reinforced{dir = 1},/turf/open/floor/plating/airless,/area/shuttle/mining)
+"P" = (/obj/structure/chair{dir = 1},/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
+"W" = (/obj/structure/chair{dir = 4},/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
+"Z" = (/obj/structure/table,/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
+
+(1,1,1) = {"
+aiia
+agZa
+iPoi
+aroa
+aWoh
+amma
+axxa
+"}
