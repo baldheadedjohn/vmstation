@@ -72,6 +72,7 @@
 "OP" = (/obj/structure/sink{dir = 8; pixel_x = -12},/turf/open/floor/mineral/titanium,/area/shuttle/escape)
 "PX" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/door/airlock/external{name = "Emergency Recovery Airlock"},/turf/open/floor/plasteel,/area/shuttle/escape)
 "Qa" = (/obj/structure/chair{dir = 8},/turf/open/floor/mineral/plastitanium/red/brig,/area/shuttle/escape)
+"Qf" = (/obj/machinery/door/airlock/titanium{name = "Emergency Shuttle Airlock"},/obj/docking_port/mobile/emergency{dir = 1; height = 24; width = 14; dwidth = 3},/turf/open/floor/plasteel,/area/shuttle/escape)
 "Qu" = (/obj/structure/chair/office{dir = 4},/turf/open/floor/mineral/titanium/blue,/area/shuttle/escape)
 "Qx" = (/obj/structure/table,/obj/machinery/microwave,/turf/open/floor/mineral/titanium/blue,/area/shuttle/escape)
 "QG" = (/obj/machinery/space_heater,/obj/effect/turf_decal/stripes/line{dir = 4},/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/bot,/turf/open/floor/plasteel,/area/shuttle/escape)
@@ -83,6 +84,7 @@
 "Tp" = (/turf/template_noop,/area/template_noop)
 "UD" = (/obj/machinery/door/airlock/medical/glass{name = "Escape Shuttle Infirmary"},/turf/open/floor/plasteel,/area/shuttle/escape)
 "UN" = (/obj/structure/reagent_dispensers/watertank,/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel,/area/shuttle/escape)
+"US" = (/turf/closed/wall/mineral/titanium/nodiagonal,/area/shuttle/escape)
 "VN" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/light/small{dir = 8},/turf/open/floor/plasteel,/area/shuttle/escape)
 "Wd" = (/obj/effect/decal/cleanable/dirt,/obj/structure/reagent_dispensers/watertank,/turf/open/floor/plasteel,/area/shuttle/escape)
 "XH" = (/obj/structure/table,/obj/item/scalpel{pixel_y = 12},/obj/item/circular_saw,/obj/item/retractor{pixel_x = 4},/obj/item/hemostat{pixel_x = -4},/obj/item/clothing/gloves/color/latex,/obj/item/clothing/mask/surgical,/obj/item/surgicaldrill,/obj/item/cautery,/turf/open/floor/mineral/titanium,/area/shuttle/escape)
@@ -91,7 +93,7 @@
 "Zn" = (/turf/open/floor/mineral/plastitanium/red/brig,/area/shuttle/escape)
 
 (1,1,1) = {"
-KFKFKFKFKFKFDYDYDYDYDYKFKFKF
+USKFKFKFKFKFDYDYDYDYDYKFKFUS
 DYWdisisisKFiDASKYQWHzeHjCKF
 DqaGaGLtaGKFBZtGSktGtGSkfRKF
 jUaGaGKFPXKFKhNQJUJUJUQunrKF
@@ -111,8 +113,8 @@ KFFyufvbvMKFSNJUkWDYRsJUkWDY
 KFjgaGoxUNFIRsJUkWseRsJUrmFI
 DYNToxoxRaDYRsJUkWDYRsJUkWDY
 DYQGoxaGtSKFSNJUkWDYRsJUkWDY
-KFdPaGoxzrlTtGtGtGtGtGtGKFKF
-KFmeoxaGzrlTtGQxwZmHNGkkKFTp
+KFdPaGoxzrlTtGtGtGtGtGtGUSUS
+KFmeoxaGzrlTtGQxwZmHNGkkUSTp
 KFMVGiLPyBKFYQYQYQYQYQYQKFTp
-KFKFKFlTlTKFununununununKFTp
+USKFKFQflTUSununununununUSTp
 "}

@@ -1,6 +1,6 @@
 "a" = (/turf/closed/wall/mineral/titanium,/area/shuttle/supply)
 "d" = (/obj/machinery/button/door{id = "QMLoaddoor"; name = "Loading Doors"; pixel_x = 24},/turf/open/floor/mineral/titanium/blue,/area/shuttle/supply)
-"e" = (/obj/machinery/door/airlock/titanium{name = "Supply Shuttle Airlock"},/obj/docking_port/mobile/supply,/turf/open/floor/mineral/titanium/blue,/area/shuttle/supply)
+"e" = (/obj/machinery/door/airlock/titanium{name = "Supply Shuttle Airlock"},/obj/docking_port/mobile/supply{dwidth = 2; height = 9; width = 6},/turf/open/floor/mineral/titanium/blue,/area/shuttle/supply)
 "j" = (/turf/template_noop,/area/template_noop)
 "t" = (/turf/open/floor/mineral/titanium/blue,/area/shuttle/supply)
 "L" = (/obj/machinery/light{dir = 1},/turf/open/floor/mineral/titanium/blue,/area/shuttle/supply)

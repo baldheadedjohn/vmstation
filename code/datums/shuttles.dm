@@ -391,6 +391,12 @@
 	description = "On the smaller size with a modern design, this shuttle is for the crew who like the cosier things, while still being able to stretch their legs."
 	credit_cost = 1000
 
+/datum/map_template/shuttle/emergency/vm36
+	suffix = "vm36"
+	name = "VM36 Emergency Shuttle"
+	description = "A modified and sized-down version of the Meta Station model escape shuttle. Equipped with a brig and medbay."
+	credit_cost = 3000
+
 /datum/map_template/shuttle/ferry/base
 	suffix = "base"
 	name = "transport ferry"
