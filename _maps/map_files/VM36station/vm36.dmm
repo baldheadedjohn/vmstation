@@ -179,7 +179,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "amd" = (
-/turf/open/floor/plasteel/vaporwave,
+/obj/effect/landmark/room_placer/Large35x/engine/supermatter,
+/turf/open/space/basic,
 /area/space)
 "amF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
@@ -757,8 +758,9 @@
 "aQn" = (
 /obj/machinery/door/window/westleft{
 	name = "Atmospherics Delivery";
-	req_access_txt = "24";
-	dir = 1
+	req_access_txt = null;
+	dir = 1;
+	req_one_access_txt = "10, 24"
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -4880,6 +4882,9 @@
 	pixel_y = 7
 	},
 /obj/item/storage/box/lights/mixed,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "fdS" = (
@@ -6289,10 +6294,10 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "gHy" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer3{
 	dir = 5
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/engine/atmos)
 "gHX" = (
 /obj/structure/cable,
@@ -6956,7 +6961,9 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "hna" = (
-/obj/machinery/door/airlock/atmos/glass,
+/obj/machinery/door/airlock/atmos/glass{
+	req_one_access_txt = "10, 24"
+	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "hnN" = (
@@ -8490,6 +8497,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
+"iQF" = (
+/obj/machinery/door/airlock/atmos/glass{
+	req_one_access_txt = "10, 24"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "iQM" = (
 /obj/structure/transit_tube/diagonal/topleft,
 /obj/structure/lattice,
@@ -9127,7 +9142,7 @@
 /area/medical/medbay/central)
 "jzR" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1,
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/engine/atmos)
 "jAf" = (
 /obj/structure/table/reinforced,
@@ -10174,10 +10189,12 @@
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "kyl" = (
-/obj/machinery/door/airlock/atmos/glass,
+/obj/machinery/door/airlock/atmos/glass{
+	req_one_access_txt = "10, 24"
+	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/engine/atmos)
 "kzn" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -12216,6 +12233,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
+"muI" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/engine/engine_smes)
 "mvh" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer1{
@@ -13014,9 +13038,9 @@
 /area/engine/atmos)
 "nnp" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
-	dir = 1
+	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
 "nnZ" = (
 /obj/structure/table/reinforced,
@@ -13153,9 +13177,11 @@
 /area/space)
 "nun" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
 	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 9
 	},
 /turf/open/floor/plating,
 /area/engine/engine_smes)
@@ -20604,7 +20630,8 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/northleft{
 	name = "Atmospherics Desk";
-	req_access_txt = "24"
+	req_access_txt = null;
+	req_one_access_txt = "10, 24"
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
@@ -38440,8 +38467,8 @@ hjl
 hjl
 hjl
 hjl
-gUw
-gUw
+hjl
+hjl
 hjl
 hjl
 hjl
@@ -38697,7 +38724,7 @@ hjl
 hjl
 hjl
 hjl
-gUw
+hjl
 hjl
 hjl
 hjl
@@ -47471,7 +47498,7 @@ hjl
 hjl
 hjl
 hjl
-gUw
+hjl
 hjl
 hjl
 hjl
@@ -47727,8 +47754,8 @@ hjl
 hjl
 hjl
 hjl
-gUw
-gUw
+hjl
+hjl
 hjl
 hjl
 hjl
@@ -47956,7 +47983,7 @@ mjT
 rbe
 smx
 dFV
-tZg
+nnp
 tZg
 tZg
 tZg
@@ -48213,7 +48240,7 @@ aPM
 qjm
 tRs
 dFV
-oqK
+muI
 mNx
 kRJ
 oqK
@@ -48471,7 +48498,7 @@ gwz
 pns
 khW
 nun
-nnp
+nZw
 nbA
 aXX
 dFV
@@ -49750,7 +49777,7 @@ fOL
 eJL
 fpp
 tey
-kyl
+iQF
 lCC
 lsS
 muy
@@ -50264,7 +50291,7 @@ xPl
 tVw
 brc
 gHy
-kXO
+ebh
 kJc
 dAV
 xzv
@@ -50525,9 +50552,9 @@ kyl
 sFP
 fTh
 rqu
-kXO
-kXO
-kXO
+ebh
+ebh
+ebh
 rqu
 hjl
 tub
@@ -50778,9 +50805,9 @@ ygt
 czL
 yee
 vaK
-kXO
-kXO
-kXO
+ebh
+ebh
+ebh
 rqu
 lQU
 lQU

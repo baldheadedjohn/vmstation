@@ -17,6 +17,8 @@ SUBSYSTEM_DEF(mapping)
 	var/list/space_ruins_templates = list()
 	var/list/lava_ruins_templates = list()
 
+
+	var/list/room_templates = list() // for random station rooms
 	var/list/shuttle_templates = list()
 	var/list/shelter_templates = list()
 
@@ -160,6 +162,7 @@ SUBSYSTEM_DEF(mapping)
 	ruins_templates = SSmapping.ruins_templates
 	space_ruins_templates = SSmapping.space_ruins_templates
 	lava_ruins_templates = SSmapping.lava_ruins_templates
+	room_templates = SSmapping.room_templates
 	shuttle_templates = SSmapping.shuttle_templates
 	shelter_templates = SSmapping.shelter_templates
 	unused_turfs = SSmapping.unused_turfs
@@ -346,9 +349,22 @@ GLOBAL_LIST_EMPTY(the_station_areas)
 		var/datum/map_template/T = new(path = "[path][map]", rename = "[map]")
 		map_templates[T.name] = T
 
+	preloadRoomTemplates()
 	preloadRuinTemplates()
 	preloadShuttleTemplates()
 	preloadShelterTemplates()
+
+
+
+
+/datum/controller/subsystem/mapping/proc/preloadRoomTemplates()
+	for(var/item in subtypesof(/datum/map_template/room/))
+		var/datum/map_template/room/room_type = item
+		if(!(initial(room_type.mappath)))
+			continue
+		var/datum/map_template/room/R = new room_type()
+		room_templates[R.room_id] = R
+		map_templates[R.room_id] = R
 
 /datum/controller/subsystem/mapping/proc/preloadRuinTemplates()
 	// Still supporting bans by filename

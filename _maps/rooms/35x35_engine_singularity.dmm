@@ -1,0 +1,76 @@
+"ab" = (/obj/effect/turf_decal/stripes/corner{dir = 4},/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,/turf/open/floor/plasteel,/area/engine/engineering)
+"aR" = (/obj/structure/particle_accelerator/particle_emitter/right,/turf/open/floor/plating,/area/engine/engineering)
+"aZ" = (/turf/open/floor/plasteel,/area/engine/engineering)
+"bX" = (/turf/template_noop,/area/template_noop)
+"ci" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"cF" = (/turf/open/space/basic,/area/engine/engineering)
+"dw" = (/obj/structure/table,/obj/item/clothing/suit/radiation,/obj/item/geiger_counter{pixel_x = -18},/obj/item/clothing/head/radiation,/obj/item/geiger_counter{pixel_x = -11},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"dI" = (/obj/effect/turf_decal/stripes/corner{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"hm" = (/obj/structure/lattice,/turf/open/space/basic,/area/engine/engineering)
+"hz" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/engine/cult,/area/engine/engineering)
+"in" = (/obj/structure/particle_accelerator/power_box,/turf/open/floor/plating,/area/engine/engineering)
+"km" = (/turf/closed/wall/r_wall,/area/engine/engineering)
+"kO" = (/obj/machinery/light{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"lH" = (/obj/structure/lattice/catwalk,/turf/open/space/basic,/area/engine/engineering)
+"on" = (/obj/structure/cable,/obj/effect/turf_decal/stripes/corner{dir = 1},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,/turf/open/floor/plasteel,/area/engine/engineering)
+"qi" = (/obj/structure/particle_accelerator/fuel_chamber,/turf/open/floor/plating,/area/engine/engineering)
+"rw" = (/obj/structure/closet/emcloset/anchored,/turf/open/floor/plating,/area/engine/engineering)
+"rJ" = (/obj/item/wrench,/turf/open/space/basic,/area/engine/engineering)
+"rT" = (/obj/machinery/light{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"ue" = (/obj/structure/particle_accelerator/particle_emitter/center,/turf/open/floor/plating,/area/engine/engineering)
+"uo" = (/obj/structure/table,/obj/item/clothing/suit/radiation,/obj/item/clothing/head/radiation,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"vK" = (/obj/machinery/door/airlock/external{name = "Engineering Singularity Access"},/obj/effect/mapping_helpers/airlock/cyclelink_helper{dir = 8},/turf/open/floor/plating,/area/engine/engineering)
+"xw" = (/turf/open/floor/plating,/area/engine/engineering)
+"zL" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{dir = 9},/turf/open/floor/plasteel,/area/engine/engineering)
+"Bh" = (/obj/structure/table,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"Bj" = (/obj/structure/cable,/obj/effect/turf_decal/stripes/line{dir = 9},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,/turf/open/floor/plasteel,/area/engine/engineering)
+"CH" = (/obj/machinery/shieldgen,/turf/open/floor/plating,/area/engine/engineering)
+"FW" = (/obj/machinery/particle_accelerator/control_box,/turf/open/floor/plating,/area/engine/engineering)
+"HE" = (/obj/structure/table,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson{pixel_y = 8},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"Iu" = (/obj/machinery/power/emitter/anchored{dir = 4; state = 2},/turf/open/floor/plating,/area/engine/engineering)
+"ID" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/engine/engineering)
+"Je" = (/obj/machinery/power/emitter/anchored{dir = 8; state = 2},/turf/open/floor/plating,/area/engine/engineering)
+"Ky" = (/obj/item/screwdriver,/turf/open/space/basic,/area/engine/engineering)
+"KU" = (/obj/effect/turf_decal/stripes/corner{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"Ll" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/plasteel,/area/engine/engineering)
+"ON" = (/obj/structure/particle_accelerator/end_cap,/turf/open/floor/plating,/area/engine/engineering)
+"UD" = (/obj/machinery/door/airlock/external{name = "Engineering Singularity Access"},/obj/effect/mapping_helpers/airlock/cyclelink_helper{dir = 4},/turf/open/floor/plating,/area/engine/engineering)
+"Wo" = (/obj/structure/particle_accelerator/particle_emitter/left,/turf/open/floor/plating,/area/engine/engineering)
+
+(1,1,1) = {"
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXkmdILlbXbXbXbXbXbXbXBjKU
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXkmkmkmkmaZabkOuodwHEHEBhkOonaZ
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXkmaZrTaZaZaZaZaZaZaZaZaZcizLaZ
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXhzaZaZxwONxwaZaZaZaZaZaZaZaZaZ
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXhzaZaZFWqixwaZaZaZaZaZaZaZaZaZ
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXkmkmkmaZaZxwinxwaZaZaZaZaZaZaZaZaZ
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmkmkmkmkmrwkmaZaZWoueaRaZaZkmkmkmkmkmkmkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHlHUDxwvKxwxwxwxwxwxwxwkmcFcFcFhmcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmhmlHcFkmIDkmkmhzhzhzhzhzkmkmcFcFcFhmcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHcFcFcFcFcFcFcFhmcFcFcFcFcFcFcFhmcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHcFcFcFcFcFcFcFhmcFcFcFcFcFcFcFhmcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHIuhmhmCHcFcFcFCHhmcFhmCHhmhmJelHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmhmlHcFcFcFhmcFcFcFhmcFcFcFcFcFcFcFlHhmkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHcFcFcFhmcFcFcFhmcFcFrJcFcFcFcFlHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHcFcFcFhmcFcFxwxwxwcFcFcFcFcFcFlHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHcFcFcFCHcFcFxwxwxwcFhmCHcFcFcFlHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHcFcFcFcFcFcFxwxwxwcFcFhmcFcFcFlHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHcFcFcFcFcFcFcFcFcFcFcFhmcFcFcFlHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmhmlHcFcFcFcFcFcFcFhmcFcFcFhmcFcFcFlHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHIuhmhmCHhmhmhmCHKycFcFCHhmhmJelHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmcFlHlHlHlHlHlHlHlHlHlHlHlHlHlHlHlHlHcFkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkmkm
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+"}
