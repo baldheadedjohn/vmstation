@@ -1,0 +1,113 @@
+"ab" = (/obj/machinery/light{dir = 8},/turf/open/floor/plasteel,/area/engine/engineering)
+"aL" = (/obj/effect/turf_decal/tile/purple,/obj/effect/turf_decal/tile/purple{dir = 8},/turf/open/floor/plasteel,/area/engine/engineering)
+"aZ" = (/obj/effect/turf_decal/stripes/corner{dir = 1},/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{dir = 4},/turf/open/floor/plating,/area/engine/engineering)
+"bX" = (/turf/template_noop,/area/template_noop)
+"ci" = (/turf/open/space/basic,/area/template_noop)
+"cJ" = (/obj/machinery/atmospherics/pipe/simple/orange/visible,/turf/open/floor/plasteel,/area/engine/engineering)
+"dd" = (/obj/machinery/atmospherics/pipe/simple/orange/visible,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/engine/engineering)
+"dq" = (/obj/effect/turf_decal/tile/purple{dir = 1},/obj/effect/turf_decal/tile/purple{dir = 8},/turf/open/floor/plasteel,/area/engine/engineering)
+"dw" = (/obj/machinery/atmospherics/pipe/layer_manifold{dir = 8},/turf/open/floor/plating,/area/engine/engineering)
+"dI" = (/obj/effect/turf_decal/stripes/line{dir = 9},/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{dir = 5},/turf/open/floor/plasteel,/area/engine/engineering)
+"fc" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,/turf/open/floor/plasteel,/area/engine/engineering)
+"gO" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/turf/open/floor/plating,/area/engine/engineering)
+"gR" = (/turf/open/floor/plasteel,/area/engine/engineering)
+"gZ" = (/obj/structure/cable,/obj/effect/turf_decal/stripes/line{dir = 5},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"hd" = (/turf/closed/wall/r_wall,/area/engine/engineering)
+"hg" = (/obj/effect/turf_decal/tile/purple{dir = 1},/obj/effect/turf_decal/tile/purple{dir = 8},/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 9},/turf/open/floor/plasteel,/area/engine/engineering)
+"hj" = (/obj/effect/turf_decal/tile/purple,/obj/effect/turf_decal/tile/purple{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 6},/turf/open/floor/plasteel,/area/engine/engineering)
+"iF" = (/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{dir = 8},/turf/open/floor/plasteel/white,/area/engine/engineering)
+"js" = (/obj/machinery/atmospherics/pipe/heat_exchanging/simple{dir = 6},/turf/open/space/basic,/area/space/nearstation)
+"km" = (/obj/machinery/atmospherics/pipe/simple/supply/visible{dir = 9},/turf/open/floor/plasteel,/area/engine/engineering)
+"li" = (/obj/effect/turf_decal/tile/purple,/obj/effect/turf_decal/tile/purple{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 5},/turf/open/floor/plasteel,/area/engine/engineering)
+"lq" = (/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 10},/turf/open/floor/plasteel,/area/engine/engineering)
+"lX" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"mp" = (/obj/machinery/power/port_gen/pacman,/turf/open/floor/plating,/area/engine/engineering)
+"oo" = (/obj/effect/turf_decal/tile/purple{dir = 1},/obj/effect/turf_decal/tile/purple{dir = 8},/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 10},/turf/open/floor/plasteel,/area/engine/engineering)
+"os" = (/obj/machinery/atmospherics/pipe/manifold4w/supply/visible,/turf/open/floor/plasteel,/area/engine/engineering)
+"oI" = (/obj/machinery/atmospherics/pipe/manifold/orange/visible{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"oN" = (/obj/machinery/atmospherics/components/unary/heat_exchanger{dir = 8},/turf/open/floor/plasteel,/area/engine/engineering)
+"pm" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/engine/engineering)
+"pT" = (/obj/machinery/atmospherics/components/unary/heat_exchanger{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"rL" = (/obj/machinery/atmospherics/pipe/heat_exchanging/junction{dir = 8},/turf/closed/wall/r_wall,/area/engine/engineering)
+"rW" = (/obj/machinery/atmospherics/pipe/simple/supply/visible,/turf/open/floor/plasteel,/area/engine/engineering)
+"sz" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"sG" = (/obj/machinery/atmospherics/pipe/heat_exchanging/simple,/turf/open/space/basic,/area/space/nearstation)
+"sQ" = (/turf/open/floor/plasteel/white,/area/engine/engineering)
+"ta" = (/obj/machinery/door/airlock/engineering/glass,/obj/structure/cable,/turf/open/floor/plating,/area/engine/engineering)
+"uo" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"vo" = (/obj/machinery/atmospherics/pipe/simple/green/visible,/turf/open/floor/plasteel,/area/engine/engineering)
+"vy" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"vK" = (/obj/effect/turf_decal/tile/purple,/turf/open/floor/plasteel,/area/engine/engineering)
+"wn" = (/obj/machinery/atmospherics/pipe/heat_exchanging/simple{dir = 4},/turf/open/space/basic,/area/space/nearstation)
+"xe" = (/obj/structure/cable,/turf/open/floor/plasteel/white,/area/engine/engineering)
+"xw" = (/turf/open/floor/plating,/area/engine/engineering)
+"yD" = (/obj/effect/turf_decal/tile/purple,/obj/effect/turf_decal/tile/purple{dir = 4},/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/visible,/turf/open/floor/plasteel,/area/engine/engineering)
+"yW" = (/obj/machinery/atmospherics/components/binary/pump{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"zh" = (/obj/machinery/atmospherics/components/binary/valve/digital{name = "Waste to space"},/turf/open/floor/plasteel,/area/engine/engineering)
+"AH" = (/obj/machinery/atmospherics/pipe/heat_exchanging/simple{dir = 5},/turf/open/space/basic,/area/space/nearstation)
+"AN" = (/obj/structure/cable,/obj/effect/turf_decal/tile/purple{dir = 8},/obj/effect/turf_decal/tile/purple,/turf/open/floor/plasteel,/area/engine/engineering)
+"Ci" = (/obj/effect/turf_decal/tile/purple,/obj/effect/turf_decal/tile/purple{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"Cl" = (/obj/machinery/atmospherics/pipe/simple/supply/visible{dir = 10},/turf/open/floor/plasteel,/area/engine/engineering)
+"EP" = (/obj/structure/lattice,/obj/structure/grille,/turf/open/space/basic,/area/template_noop)
+"EZ" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 9},/turf/open/floor/plasteel,/area/engine/engineering)
+"Fe" = (/obj/effect/turf_decal/tile/purple{dir = 8},/obj/effect/turf_decal/tile/purple,/turf/open/floor/plasteel,/area/engine/engineering)
+"FG" = (/turf/open/space/basic,/area/space/nearstation)
+"HE" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 4},/turf/open/floor/plasteel/white,/area/engine/engineering)
+"Iq" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{dir = 4},/turf/open/floor/plating,/area/engine/engineering)
+"II" = (/obj/structure/cable,/obj/effect/turf_decal/stripes/corner{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{dir = 5},/turf/open/floor/plasteel,/area/engine/engineering)
+"Km" = (/obj/machinery/atmospherics/components/trinary/filter/flipped{dir = 1},/turf/open/floor/plasteel,/area/engine/engineering)
+"Mo" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"Mr" = (/turf/open/floor/plating,/area/template_noop)
+"Nw" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{dir = 8},/turf/open/floor/plating,/area/engine/engineering)
+"Nz" = (/obj/effect/turf_decal/tile/purple{dir = 1},/obj/effect/turf_decal/tile/purple{dir = 8},/obj/machinery/atmospherics/pipe/manifold4w/cyan/visible,/turf/open/floor/plasteel,/area/engine/engineering)
+"Pf" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"PS" = (/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste{dir = 1},/turf/open/floor/plating,/area/engine/engineering)
+"Qe" = (/obj/effect/turf_decal/tile/purple{dir = 8},/turf/open/floor/plasteel,/area/engine/engineering)
+"Qt" = (/obj/structure/lattice,/turf/open/space/basic,/area/template_noop)
+"RM" = (/obj/effect/turf_decal/stripes/corner{dir = 1},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+"RQ" = (/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 6},/turf/open/floor/plasteel,/area/engine/engineering)
+"Sa" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/open/floor/plating,/area/engine/engineering)
+"SE" = (/obj/machinery/atmospherics/components/binary/volume_pump{dir = 1; name = "Waste to scrubbers"},/turf/open/floor/plasteel,/area/engine/engineering)
+"SH" = (/obj/machinery/power/port_gen/pacman,/obj/structure/cable,/turf/open/floor/plating,/area/engine/engineering)
+"Tm" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,/turf/open/floor/plasteel,/area/engine/engineering)
+"Tw" = (/obj/structure/closet/crate,/obj/item/stack/sheet/mineral/plasma{amount = 25},/turf/open/floor/plating,/area/engine/engineering)
+"US" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 10},/turf/open/floor/plasteel,/area/engine/engineering)
+"ZP" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{dir = 4},/turf/open/floor/plasteel,/area/engine/engineering)
+
+(1,1,1) = {"
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXhdhdZPvyvyvygZbXbXbXbXbXbXbXdIRMszNwxw
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXhdgRgRgRgRgRIIPfuououououoIqaZdwUSxwTw
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXhdgRgRgRgRRQlXlXlXlXlXlXlXlXlXlqSExwTw
+bXbXbXbXbXbXbXbXEPQtQtEPEPEPEPEPhdabgRgRgRvovKFeFeFeANFeFeaLQeKmoIxwSa
+bXbXbXbXbXbXbXbXEPcicicicicicicihdMoClgRgRyWCipmpmpmtapmpmpmdqKmoIxwSa
+bXbXbXbXbXbXbXbXEPcijswnwnwnwnwnrLClrWgRgRTmhjgOiFxexexeHEpmooKmoIxwSa
+bXbXbXbXbXbXbXbXQtcisGFGFGFGFGFGpmososoNpTfcyDgOiFmpsQmpHEpmNzEZzhgRhd
+bXbXbXbXbXbXbXbXEPciAHwnwnwnwnwnrLkmrWgRgRgRligOiFSHsQSHHEpmhggRcJgRhd
+bXbXbXbXbXbXbXbXQtcicicicicicicihdMokmgRgRgRCihdsQSHsQSHsQhddqgRcJgRhd
+bXbXbXbXbXbXbXbXEPQtEPEPEPQtQtQthdhdhdhdhdhdhdhdsQsQsQsQsQhdhdpmddhdhd
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXhdhdhdhdhdhdhdMrMrPSMrbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXMrMrbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
+"}

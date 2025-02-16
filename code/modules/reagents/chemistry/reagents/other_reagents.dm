@@ -1101,6 +1101,26 @@
 	color = "#664B63" // rgb: 102, 75, 99
 	taste_description = "metal"
 
+/datum/reagent/polymorphic_thermal_agent
+	name = "Foaming agent"
+	description = "A highly corrosive chemical agent used in industrial insulation applications, binds to plasma."
+	reagent_state = LIQUID
+	color = "#46052f" // rgb: 70, 5, 47
+	taste_description = "tongue numbing metal"
+
+/datum/reagent/polymorphic_thermal_agent/reaction_obj(obj/O, volume)
+	if(volume >= 5)
+		if(O.type == /obj/structure/window/plasma/reinforced/fulltile)
+			var/t_loc = get_turf(O)
+			qdel(O)
+			new /obj/structure/window/plasma/reinforced/fulltile/thermal(t_loc)
+			return
+	
+	if(istype(O, /obj/structure/window) && (!istype(O, /obj/structure/window/plasma/reinforced/fulltile/thermal)))
+		var/obj/structure/window/W = O 
+		var/chemDamage = (W.max_integrity * (rand(30, 150)/100.0)) // lose 40-150% of integrity
+		W.take_damage(chemDamage, BURN)
+
 /datum/reagent/ammonia
 	name = "Ammonia"
 	description = "A caustic substance commonly used in fertilizer or household cleaners."

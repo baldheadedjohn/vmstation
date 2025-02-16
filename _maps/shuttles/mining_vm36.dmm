@@ -4,7 +4,6 @@
 "o" = (/obj/machinery/door/airlock/titanium{name = "Mining Shuttle Airlock"},/obj/docking_port/mobile{dir = 8; dwidth = 2; height = 4; id = "mining"; name = "mining shuttle"; port_direction = 4; width = 7},/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
 "r" = (/obj/structure/table,/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
 "s" = (/turf/closed/wall/mineral/titanium,/area/shuttle/mining)
-"t" = (/obj/structure/chair{dir = 1},/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
 "x" = (/turf/open/floor/mineral/titanium/blue,/area/shuttle/mining)
 "B" = (/obj/structure/shuttle/engine/propulsion,/obj/structure/window/reinforced{dir = 1},/turf/open/floor/plating/airless,/area/shuttle/mining)
 "D" = (/obj/effect/spawner/structure/window/shuttle,/turf/open/floor/plating,/area/shuttle/mining)
@@ -13,8 +12,8 @@
 
 (1,1,1) = {"
 sDDs
-sYrs
-DtxD
+srYs
+DfxD
 sXxs
 sfxo
 sggs

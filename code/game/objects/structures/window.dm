@@ -754,3 +754,26 @@
 			return
 	..()
 	update_icon()
+
+
+
+// superinsulation windows
+/obj/structure/window/plasma/reinforced/fulltile/thermal
+	name = "superinsulation window"
+	desc = "A completely heat and cold proof window, not even the strongest fusion reactions can pass through it. As a by-product of state-of-the-art material science and the barely understood realm of plasma research - these structures are fragile and potentially  volatile. Only large sections of reinforced plasma glass can withstand the chemical reaction required to form these anomalies."
+	max_integrity = 50
+	glass_amount = 2
+	color = "#eeff00"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 100, "energy" = 0, "bomb" = 0, "bio" = 100, "rad" = 100, "fire" = 80, "acid" = 100) // immune to harm lasers
+
+
+/obj/structure/window/plasma/reinforced/fulltile/thermal/BlockSuperconductivity()
+		return 1
+
+/obj/structure/window/plasma/reinforced/fulltile/thermal/bullet_act(obj/item/projectile/P) // repair insul windows with harm lasers
+	. = ..()
+	if(!QDELETED(src)) //wasn't deleted by the projectile's effects.
+		if(!P.nodamage && ((P.damage_type == BURN) || (P.damage_type == BRUTE)))
+			obj_integrity = min(obj_integrity+8,max_integrity) 
+			playsound(src, 'sound/items/welder2.ogg', 50, 1)
+			update_nearby_icons()

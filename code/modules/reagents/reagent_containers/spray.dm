@@ -61,7 +61,18 @@
 
 /obj/item/reagent_containers/spray/proc/spray(atom/A, mob/user)
 	var/range = max(min(current_range, get_dist(src, A)), 1)
-	var/obj/effect/decal/chempuff/D = new /obj/effect/decal/chempuff(get_turf(src))
+	var/turf/puff_origin_turf = get_turf(src)
+
+	//spraying fulltile windows and walls (slightly snowflakey)
+	if(range <= 1)
+		if(istype(A, /turf/closed/wall))
+			puff_origin_turf = get_turf(A)
+		if(istype(A, /obj/structure/window))
+			var/obj/structure/window/W = A
+			if(W.fulltile == 1)
+				puff_origin_turf = get_turf(A)
+
+	var/obj/effect/decal/chempuff/D = new /obj/effect/decal/chempuff(puff_origin_turf)
 	D.create_reagents(amount_per_transfer_from_this)
 	var/puff_reagent_left = range //how many turf, mob or dense objet we can react with before we consider the chem puff consumed
 	if(stream_mode)
@@ -71,6 +82,7 @@
 		reagents.trans_to(D, amount_per_transfer_from_this, 1/range)
 	D.color = mix_color_from_reagents(D.reagents.reagent_list)
 	var/wait_step = max(round(2+3/range), 2)
+
 	do_spray(A, wait_step, D, range, puff_reagent_left, user)
 
 /obj/item/reagent_containers/spray/proc/do_spray(atom/A, wait_step, obj/effect/decal/chempuff/D, range, puff_reagent_left, mob/user)
@@ -410,6 +422,10 @@
 	icon_state = "sprayer_large"
 	list_reagents = list(/datum/reagent/medicine/rhigoxane = 100)
 
-
-
+/obj/item/reagent_containers/spray/insulating
+	name = "superinsulation spray bottle"
+	desc = "A spray bottle filled with polymorphic insulation agent, on its back there is a label with a lengthy list of warnings and instructions. \"For use with full-sized reinforced plasma windows only.\""
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "sprayer_insul"
+	list_reagents = list(/datum/reagent/polymorphic_thermal_agent = 250)
 

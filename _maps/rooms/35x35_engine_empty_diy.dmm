@@ -1,35 +1,33 @@
 "bX" = (/turf/template_noop,/area/template_noop)
-"ew" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,/turf/open/floor/plating,/area/engine/engineering)
-"kO" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,/turf/open/floor/plating,/area/engine/engineering)
+"ew" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,/turf/open/floor/plating,/area/template_noop)
+"kO" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,/turf/open/floor/plating,/area/template_noop)
 "oo" = (/obj/structure/lattice,/turf/open/space/basic,/area/template_noop)
-"rw" = (/turf/open/space/basic,/area/engine/engineering)
+"rw" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,/obj/structure/cable,/turf/open/floor/plating,/area/template_noop)
 "rW" = (/turf/open/space/basic,/area/template_noop)
-"sQ" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{dir = 8},/turf/open/floor/plating,/area/engine/engineering)
-"ue" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,/turf/open/floor/plating,/area/engine/engineering)
-"xw" = (/turf/open/floor/plating,/area/engine/engineering)
-"Bh" = (/obj/structure/lattice,/turf/open/space/basic,/area/engine/engineering)
-"HU" = (/obj/machinery/light{dir = 4},/turf/open/space/basic,/area/engine/engineering)
-"UT" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{dir = 8},/turf/open/floor/plating,/area/engine/engineering)
-"Zf" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,/turf/open/floor/plating,/area/engine/engineering)
+"sQ" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{dir = 8},/turf/open/floor/plating,/area/template_noop)
+"ue" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,/turf/open/floor/plating,/area/template_noop)
+"xw" = (/turf/open/floor/plating,/area/template_noop)
+"UT" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{dir = 8},/turf/open/floor/plating,/area/template_noop)
+"Zf" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,/turf/open/floor/plating,/area/template_noop)
 
 (1,1,1) = {"
 bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
 bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXxwZfbXbXbXbXbXbXbXuexw
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrwewxwxwxwxwxwxwBhkOrw
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrwsQUTxwxwrwBhBhrwuerw
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrwxwBhrwrwxwrwBhrwrwrw
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWoorWrwrwrwBhrwrwHU
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWoorWrWrWrWoorWrWbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWoorWrWrWrWoorWrWbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXoooooooooooooooooooooooooooo
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWoorWrWrWrWoorWrWbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWoorWrWrWrWoorWrWbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXoooooooooooooooooooooooooorWbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWrWrWrWrWrWoorWrWbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWrWrWrWrWrWoorWrWbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWoorWrWoooooooorWrWbX
-bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXoobXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXZfbXbXbXbXbXbXbXrwbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXewxwxwxwxwxwxwookObXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXsQUTxwxwrWoooorWuebXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWoorWrWxwrWoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWoorWrWrWrWoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWoorWrWrWrWoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWoorWrWrWrWoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXoooooooooooooooooooooooooooooooobXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWoorWrWrWrWoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWoorWrWrWrWoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXoooooooooooooooooooooooooorWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWrWrWrWoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXrWrWrWrWrWrWoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXoorWrWbXbXbXbXbX
+bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
 bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
 bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX
 bXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbXbX

@@ -423,6 +423,15 @@
 	required_reagents = list(/datum/reagent/foaming_agent = 3, /datum/reagent/acetone = 1, /datum/reagent/iron = 1)
 	mix_message = "The solution mixes into a frothy metal foam and conforms to the walls of its container."
 
+////////////////////////////////// misc engineering ///////////////////////////////////////////////////
+
+/datum/chemical_reaction/polymorphic_thermal_agent
+	name = "polymorphic thermal agent"
+	id = /datum/reagent/polymorphic_thermal_agent
+	results = list(/datum/reagent/polymorphic_thermal_agent = 3)
+	required_reagents = list(/datum/reagent/carbon = 1, /datum/reagent/silicon = 2)
+	required_catalysts = list(/datum/reagent/toxin/plasma = 1)
+	required_temp = 350
 
 /////////////////////////////// Cleaning and hydroponics /////////////////////////////////////////////////
 

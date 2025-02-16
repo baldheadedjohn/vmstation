@@ -1,12 +1,13 @@
 "a" = (/turf/open/floor/mineral/plastitanium/red,/area/shuttle/labor)
 "d" = (/obj/effect/turf_decal/tile/red,/obj/effect/turf_decal/tile/red{dir = 1},/obj/machinery/door/airlock/titanium{name = "Labor Shuttle Airlock"; req_access_txt = "2"},/turf/open/floor/plasteel/showroomfloor,/area/shuttle/labor)
 "g" = (/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/open/floor/plating/airless,/area/shuttle/labor)
+"h" = (/obj/machinery/door/airlock/titanium{id_tag = "prisonshuttle"; name = "Labor Shuttle Airlock"},/obj/effect/turf_decal/tile/red{dir = 1},/obj/effect/turf_decal/tile/red,/obj/docking_port/mobile{dir = 2; dwidth = 2; height = 5; id = "laborcamp"; name = "labor camp shuttle"; port_direction = 2; width = 9},/turf/open/floor/plasteel/showroomfloor,/area/shuttle/labor)
 "n" = (/obj/structure/chair{dir = 8},/obj/effect/turf_decal/tile/red,/obj/effect/turf_decal/tile/red{dir = 1},/turf/open/floor/plasteel/showroomfloor,/area/shuttle/labor)
-"r" = (/obj/machinery/door/airlock/titanium{id_tag = "prisonshuttle"; name = "Labor Shuttle Airlock"},/obj/effect/turf_decal/tile/red{dir = 1},/obj/effect/turf_decal/tile/red,/obj/docking_port/mobile{dir = 2; dwidth = 2; height = 5; id = "laborcamp"; name = "labor camp shuttle"; port_direction = 2; width = 8},/turf/open/floor/plasteel/showroomfloor,/area/shuttle/labor)
-"t" = (/turf/closed/wall/mineral/titanium/nodiagonal,/area/shuttle/labor)
-"v" = (/turf/template_noop,/area/template_noop)
+"r" = (/obj/machinery/light{dir = 8},/obj/structure/table,/obj/machinery/recharger,/obj/effect/turf_decal/stripes/corner{dir = 4},/turf/open/floor/mineral/plastitanium/red,/area/shuttle/labor)
+"t" = (/obj/structure/table,/obj/item/book/manual/wiki/security_space_law,/turf/open/floor/mineral/plastitanium/red,/area/shuttle/labor)
+"v" = (/obj/effect/turf_decal/stripes/corner{dir = 1},/turf/open/floor/mineral/plastitanium/red,/area/shuttle/labor)
 "x" = (/obj/effect/turf_decal/tile/red,/obj/effect/turf_decal/tile/red{dir = 1},/obj/machinery/mineral/stacking_machine/laborstacker{input_dir = 2; output_dir = 1},/turf/open/floor/plasteel/showroomfloor,/area/shuttle/labor)
-"B" = (/obj/machinery/light{dir = 8},/turf/open/floor/mineral/plastitanium/red,/area/shuttle/labor)
+"B" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/mineral/plastitanium/red,/area/shuttle/labor)
 "G" = (/obj/effect/turf_decal/tile/red,/obj/effect/turf_decal/tile/red{dir = 1},/obj/machinery/mineral/labor_claim_console{pixel_y = 26},/turf/open/floor/plasteel/showroomfloor,/area/shuttle/labor)
 "H" = (/obj/effect/turf_decal/tile/red,/obj/effect/turf_decal/tile/red{dir = 1},/obj/machinery/light{dir = 2},/turf/open/floor/plasteel/showroomfloor,/area/shuttle/labor)
 "J" = (/obj/machinery/computer/shuttle/labor{dir = 4},/turf/open/floor/mineral/plastitanium/red,/area/shuttle/labor)
@@ -17,9 +18,9 @@
 "Y" = (/obj/structure/chair/office{dir = 8},/turf/open/floor/mineral/plastitanium/red,/area/shuttle/labor)
 
 (1,1,1) = {"
-vTTTTrTT
-TtBxGnRg
-TJYTSnRg
-TtadSHRg
-vTTTUTTT
+TTTTTThTT
+TrBvxGnRg
+TJYaTSnRg
+TtaadHSRg
+TTTTTTUTT
 "}

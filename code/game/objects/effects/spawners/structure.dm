@@ -355,3 +355,11 @@ again.
 		if(NORTHWEST)
 			spawn_list = list(/obj/structure/grille, /obj/structure/window/plasma/reinforced/spawner/north, /obj/structure/window/plasma/reinforced/spawner/west)
 	. = ..()
+
+// superinsulation
+
+/obj/effect/spawner/structure/window/plasma/thermal
+	name = "superinsulation window spawner"
+	icon_state = "pwindow_spawner"
+	color = "#eeff00"
+	spawn_list = list(/obj/structure/grille, /obj/structure/window/plasma/reinforced/fulltile/thermal)
