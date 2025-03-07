@@ -25,9 +25,10 @@
 
 /obj/screen/plane_master/openspace/backdrop(mob/mymob)
 	filters = list()
-	filters += filter(type = "drop_shadow", color = "#04080FAA", border = 5, size = -10)
-	filters += filter(type = "drop_shadow", color = "#04080FAA", border = 5, size = -15)
-	filters += filter(type = "drop_shadow", color = "#04080FAA", border = 5, size = -20)
+	filters += filter(type = "drop_shadow", color = "#04080FAA", offset = 5, size = -5)
+	filters += filter(type = "drop_shadow", color = "#04080FAA", offset = 10, size = -10)
+	filters += filter(type = "drop_shadow", color = "#04080FAA", offset = 15, size = -15)
+
 
 /obj/screen/plane_master/proc/outline(_size, _color)
 	filters += filter(type = "outline", size = _size, color = _color)
